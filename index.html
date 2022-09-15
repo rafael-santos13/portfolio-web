@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 
 <head>
     <meta charset="UTF-8">
@@ -13,12 +13,16 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
     <style>
-        body{
+        body {
             background-color: #F1F7ED;
         }
 
-       #nome {
+        #nome {
             font-family: 'Poppins', sans-serif;
+        }
+
+        .mini-title {
+            color: #1C7C54;
         }
 
         .descricao-texto {
@@ -30,18 +34,17 @@
 <body>
     <h3>Índice</h3>
     <a href="#sobre-mim">Sobre Mim</a> <br>
-    <a href="#habilidades">Habilidades</a>
+    <a href="#habilidades">Habilidades</a> <br>
+    <a href="#informacoes">Informações</a>
 
     <h1 id="nome">Rafael Ferreira Santos</h1>
     <h4>Design Web</h4>
     <img src="./perfil.jpg" alt="foto de perfil" height="500px">
 
-    <h2 id="sobre-mim">Sobre Mim</h2>
-    <p class="descricao-texto">Nasci em Belo Horizonte, capital de Minas Gerais mas moro atualmente em Governador
-        Valadares. <br> Desde pequeno sempre me interessei muito por códigos e linguagens que eu via nos filmes de
-        espião <br> combinado ao fato de ser muito criativo acabei me aventurando na área de design web anos depois.</p>
+    <h2 id="sobre-mim" class="mini-title">Sobre Mim</h2>
+    <p class="descricao-texto">Desde pequeno sempre me interessei muito por códigos e linguagens que eu via nos filmes de espião <br> combinado ao fato de ser muito criativo acabei me aventurando na área de design web anos depois.</p>
 
-    <h2 id="habilidades">Habilidades</h2>
+    <h2 id="habilidades" class="mini-title">Habilidades</h2>
     <ul class="descricao-texto">
         <li>Criatividade</li>
         <li>Comunicação</li>
@@ -50,8 +53,15 @@
         <li>Cabo da reserva do Exército Brasileiro</li>
     </ul>
 
-    <h2>Minha referência</h2>
-    <a class="descricao-texto" href="https://www.youtube.com/c/rafaellaballerini">Minha principal inspiração na área da tecnologia</a>
+    <h2 id="informacoes" class="mini-title">Informações</h2>
+    <ul class="descricao-texto">
+        <li>Brasileiro</li>
+        <li>Moro em Governador Valadares - MG</li>
+    </ul>
+
+    <h2 class="mini-title">Minha referência</h2>
+    <a class="descricao-texto" href="https://www.youtube.com/c/rafaellaballerini">Minha principal inspiração na área da
+        tecnologia</a>
 </body>
 
 </html>
